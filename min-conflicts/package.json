@@ -1,0 +1,11 @@
+{
+  "name": "min-conflicts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mterz/ai-min-conflicts.git",
+  "author": "mterz <mterziisky@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.7"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "knapsack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "mterz <mterziisky@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "priorityqueuejs": "^1.0.0",
+    "readline-sync": "^1.4.7"
+  }
+}

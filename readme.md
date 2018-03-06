@@ -1,0 +1,1 @@
+## Homeworks for the Artificial intelligence course in FMI

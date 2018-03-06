@@ -1,0 +1,10 @@
+{
+  "name": "k-nearest-neighbours",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "mterz <mterziisky@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.7"
+  }
+}

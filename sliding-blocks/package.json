@@ -1,0 +1,12 @@
+{
+  "name": "sliding-blocks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mterz/ai-sliding-blocks.git",
+  "author": "mterz <mterziisky@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "priorityqueuejs": "^1.0.0",
+    "readline-sync": "^1.4.7"
+  }
+}
