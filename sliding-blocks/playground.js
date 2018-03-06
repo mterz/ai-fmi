@@ -1,3 +1,5 @@
+// Playground file to test some stuff.
+
 let numb = 1, n = 2;
 let finalBoard = [];
 finalBoard[0] = {};

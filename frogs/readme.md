@@ -5,8 +5,11 @@
 The game consists of playing field of 2*N + 1 fields. On the left we have N frogs looking to the right and on the right we have N frogs looking to the left. The purpose of the game is to switch the places of the frogs. Each frog can only jump on the field in front of it or jump over a frog on an empty field. Use DFS to solve the problem. The input is the number of frogs looking in one direction N. The output is the states of the field after each jump.
 
 ### Input
+
 2
+
 ### Output
+
 * \>\>_<<
 * \>_><<
 * \><>_<
@@ -16,6 +19,8 @@ The game consists of playing field of 2*N + 1 fields. On the left we have N frog
 * <_><>
 * <<>_>
 * <<_>>
+
+---
 
 # Running the program
 
