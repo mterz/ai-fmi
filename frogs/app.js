@@ -20,7 +20,8 @@ const rl = readline.createInterface({
 });
 
 rl.question('Enter N - the number of frogs looking in one direction? \n N = ', (answer) => {
-  // This is a callback function. We need to put our code here, because we need it to execute when we enter the number N
+  // This is a callback function. We need to put our code here,
+  // because we need it to execute when we enter the number N
   const {
     start_pattern,
     end_pattern
