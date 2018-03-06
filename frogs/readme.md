@@ -7,11 +7,11 @@ The game consists of playing field of 2*N + 1 fields. On the left we have N frog
 ### Input
 2
 ### Output
-* >>_<<
-* >_><<
-* ><>_<
-* ><><_
-* ><_<>
+* \>\>_<<
+* \>_><<
+* \><>_<
+* \><><_
+* \><_<>
 * _<><>
 * <_><>
 * <<>_>
