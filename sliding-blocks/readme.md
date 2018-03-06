@@ -4,17 +4,17 @@ The [game](http://mypuzzle.org/sliding) starts on a board with blocks with numbe
 
 ### Input
 
-8
+* 8
 
-> 1 2 3
-> 4 5 6
-> 0 7 8
+* 1 2 3
+* 4 5 6
+* 0 7 8
 
 ### Output
 
-2
-left
-left
+* 2
+* left
+* left
 
 
 ---
