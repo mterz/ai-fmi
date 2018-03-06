@@ -37,7 +37,7 @@ const kNearestNeighbours = (learningData, trainingData, k) => {
             }
         });
 
-        // find and assign the predicted class to
+        // find and assign the predicted class to the element
         if (setosa >= versicolor && setosa >= virginica) {
             element.predictedClass = 'Iris-setosa';
         }

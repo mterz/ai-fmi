@@ -1,11 +1,30 @@
-## 1. Running the program.
+# Problem
 
-The program is written in Javascript. There are some ES6 features in the code.
-To test it you should have at least version 6.4 of node installed. Latest version is recommended.
-Then type `npm install` in the terminal when you are located in the directory of the project.
-That is needed to download all 3rd party modules used. Then type `node app.js` to run the app.
-It expects a number K = the number of euclidean neighbours to the learning point from the training points.
-Note that the training set is of size 20, so best results are expected when k ~ 5.
+Read the data from `iris.txt` and split it in two sets
+* testing - 20 elements, chosen randomly
+* learning - the rest of the elements
 
-## 2. Structure of the program.
-We use the k-nearest-neighbours(KNN) algorithm to predict the classes of the Iris flowers from the training set.
+Implement the kNearestNeighbours algorithm
+* k - input parameter
+* to predicts the class of the elements from the testing set
+
+Print
+* predicted classes of the training set
+* accuracy
+
+# Running the program
+
+* Go to the directory of the project
+* Run `npm install`
+* Run `node app.js`
+* Enter K - the number of Eucleadean neighbours to the testing point, which determine what the class is 
+
+---
+
+# Structure of the program
+
+We use the k-nearest-neighbours(KNN) algorithm to predict the classes of the Iris flowers from the testing set.
+
+---
+
+Data downloaded from  [Kaggle](https://www.kaggle.com/uciml/iris)

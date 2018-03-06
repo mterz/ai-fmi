@@ -18,8 +18,15 @@ The game consists of playing field of 2*N + 1 fields. On the left we have N frog
 * <<_>>
 
 # Running the program
+
 Run `node app.js` in the terminal when you are located in the directory of the project.
 
+---
 
 # Structure of the program
+
 We generate the whole graph and then use standart dfs to get to the end_pattern. Generation of the whole graph slows the program, but speed was not a necessary for the current problem.
+
+---
+
+Image from [smart-kit](http://smart-kit.com/wp-content/uploads/2011/01/frog-jumping-puzzle.jpg)

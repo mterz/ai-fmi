@@ -20,11 +20,13 @@ const {
 console.log('');
 
 const k = Number(readlineSync.question('Enter k: '));
+
 const trainingCount = 20;
 
 pReadFile('./iris.txt').then(data => {
-    
+    // Get through the data and create an Iris object for each line
     let processed = data.toString().split(/\r\n/).map(element => element.split(/,/)).map(element => new Iris(...element));
+    // Randomly choose training and learning data
     chooseTraining(processed, trainingCount);
     let trainingData = processed.filter(element => element.training);
     let learningData = processed.filter(element => !element.training);
@@ -44,5 +46,5 @@ pReadFile('./iris.txt').then(data => {
 
 
 }).catch(err => {
-    console.log(`Error reading file \n ${err}`);
+    console.error(`Error reading file \n ${err}`);
 });
