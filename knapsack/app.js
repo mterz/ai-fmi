@@ -32,7 +32,6 @@ const maxWeight = 5000;
 // items.push(new Item('F', 3, 12));
 
 // TEST 2 
-
 items.push(new Item('map', 90, 150));
 items.push(new Item('compass', 130, 35));
 items.push(new Item('water', 1530, 200));
@@ -57,6 +56,8 @@ items.push(new Item('socks', 40, 50));
 items.push(new Item('book', 300, 10));
 items.push(new Item('notebook', 900, 1));
 items.push(new Item('tent', 2000, 150));
+
+//The following code should be uncommented if you want to enter data from the keyboard
 
 // console.log('Enter weight value for each of the items\n W \tV');
 // for(let i = 0; i < numberOfItems; ++i) {
