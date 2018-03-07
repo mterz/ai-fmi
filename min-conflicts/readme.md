@@ -1,13 +1,31 @@
-1. Running the program.
-The program is written in Javascript. There are some ES6 features in the code.
-To test it you should have at least version 6.4 of node installed. Latest version is recommended.
-Then type "npm install" in the terminal when you are located in the directory of the project.
-That is needed to download all 3rd party modules used. Then type "node app.js" to run the app.
-It expects a number N = equal to the number of queens on a NxN board.
+# Problem
 
+Put N queens on NxN board, so that there are no two queens which attack each other. Use the algorithm MinConflicts to solve the problem.
 
-2. Structure of the program.
-We use the minConflicts algorithm to get a solution.
+### Input
 
-3. Time.
-The time needed to find a solution board is relatively small for N ~ 20. 
+* N - whole number, the number of queens
+
+### Output
+
+* Print a board where the queens are marked with * and empty spaces are marked with _
+
+---
+
+# Runnin the program
+
+* Go to the directory of the project
+* Run `npm install`
+* Run `node app.js`
+
+---
+
+# Structure of the program
+
+We use a variation of the minConflicts algorithm to solve the problem.
+
+---
+
+# Time
+
+The time needed to find a solution board is relatively small for N ~ 20. It is not such a good time, but the problem is because the variation of minConflicts we use is not very good.
