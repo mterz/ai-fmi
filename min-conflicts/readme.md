@@ -12,7 +12,7 @@ Put N queens on NxN board, so that there are no two queens which attack each oth
 
 ---
 
-# Runnin the program
+# Running the program
 
 * Go to the directory of the project
 * Run `npm install`
