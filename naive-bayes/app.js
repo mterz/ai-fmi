@@ -7,7 +7,7 @@ const {
 } = require('./Person');
 
 const {
-    devide
+    divide
 } = require('./divide');
 
 const {
@@ -27,7 +27,7 @@ pReadFile('./data.txt').then(data => {
     let processedData = data.toString().split(/\r\n/).map(person => new Person(...person.split(/,/)));
 
     // devide the data into 10 sets
-    devide(processedData);
+    divide(processedData);
 
     for (let i = 0; i < 10; ++i) {
         // get only the testing data
